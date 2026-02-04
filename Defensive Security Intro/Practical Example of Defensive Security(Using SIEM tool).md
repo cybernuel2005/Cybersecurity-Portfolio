@@ -18,8 +18,13 @@
 - Helps monitor logs and get alerts on malicious IPs
 
 ## Screenshots
-- [Screenshot 1](Images/Screenshot 2026-02-03 213726.png)
 
+![Identifying malicious IP](Images/Screenshot 2026-02-03 213726.png)
+![Investigating the IP in SIEM](Images/Screenshot 2026-02-03 213833.png)
+![Analyzing alert logs](Images/Screenshot 2026-02-03 214244.png)
+![Confirming malicious activity](Images/Screenshot 2026-02-03 214545.png)
+![Escalation decision](Images/Screenshot 2026-02-03 214834.png)
+![Final result](Images/Screenshot 2026-02-03 214931.png)
 
 ## Next Steps
 - Careers in Cyber
