@@ -18,14 +18,15 @@
 - Helps monitor logs and get alerts on malicious IPs
 
 ## Screenshots
-- Defensive Security Intro/Images/Screenshot 2026-02-03 213726.png
-- Defensive Security Intro/Images/Screenshot 2026-02-03 213833.png
-- Defensive Security Intro/Images/Screenshot 2026-02-03 214244.png
-- Defensive Security Intro/Images/Screenshot 2026-02-03 214545.png
-- Defensive Security Intro/Images/Screenshot 2026-02-03 214834.png
-- Defensive Security Intro/Images/Screenshot 2026-02-03 214931.png
-- [Screenshot 1](Images/Screenshot%202026-02-03%20213726.png)
-- [Screenshot 2](Images/Screenshot%202026-02-03%20213833.png)
+## Screenshots
+
+![Scan result](Images/Screenshot 2026-02-03 213726.png)
+![Service detection](Images/Screenshot 2026-02-03 213833.png)
+![Log analysis](Images/Screenshot 2026-02-03 214244.png)
+![Alert evidence](Images/Screenshot 2026-02-03 214545.png)
+![Investigation step](Images/Screenshot 2026-02-03 214834.png)
+![Final result](Images/Screenshot 2026-02-03 214931.png)
+
 
 
 ## Next Steps
