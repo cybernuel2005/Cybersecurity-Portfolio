@@ -18,8 +18,8 @@
 - Helps monitor logs and get alerts on malicious IPs
 
 ## Screenshots
-- [Screenshot 1](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/main/Defensive%20Security%20Intro/Images/Screenshot%202026-02-03%20213726.png?raw=true
-)
+- [Screenshot 1](Images/Screenshot 2026-02-03 213726.png)
+
 
 ## Next Steps
 - Careers in Cyber
