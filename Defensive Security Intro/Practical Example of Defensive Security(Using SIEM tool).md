@@ -19,7 +19,7 @@
 
 ## Screenshots
 
-![Identifying malicious IP](Images/Screenshot 2026-02-03 213726.png)
+![Identifying malicious IP](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/271349b05205a9be121781db06e1cfda1259ad93/Defensive%20Security%20Intro/Images/Screenshot%202026-02-03%20213726.png)
 ![Investigating the IP in SIEM](Images/Screenshot 2026-02-03 213833.png)
 ![Analyzing alert logs](Images/Screenshot 2026-02-03 214244.png)
 ![Confirming malicious activity](Images/Screenshot 2026-02-03 214545.png)
