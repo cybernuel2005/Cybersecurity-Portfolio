@@ -1,4 +1,4 @@
-# Practical Example of Defensive Security - 2026-02-03
+# Practical Example of Defensive Security - 03-02-2026
 
 ## Objective
 - Know what SIEM is and have hands-on experience similar to that of a junior cybersecurity analyst.
