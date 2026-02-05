@@ -1,4 +1,4 @@
-## Defensive Security
+## Defensive Security - 03-02-2026
 
 Defensive security focuses on detecting, monitoring, and responding to threats
 within an organization’s systems and networks.
