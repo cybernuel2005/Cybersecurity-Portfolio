@@ -12,10 +12,10 @@
 
 ## Tools / Commands
 - dirb "website url"
-Example; dirb http://fakebank.thm
 
 ## Real-World Relevance
-- Helps monitor logs
+ - To discover hidden or exposed directories that may increase a website’s attack surface.
+
 
 ## Screenshots
 - Investigating the IP in SIEM
