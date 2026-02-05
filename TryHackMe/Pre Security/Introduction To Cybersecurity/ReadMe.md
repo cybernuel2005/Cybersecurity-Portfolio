@@ -20,4 +20,6 @@ The goal here is to:
 - Think like a hacker
 - And enhance the system defenses
 
-To apply this concept practically, I completed an attack using a dirb tool/command
+To apply this concept practically, I completed an attack using a dirb tool/command:
+
+[Practical Example: Gaining Unauthorized Access to Website Using dirb Command](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/main/TryHackMe/Pre%20Security/Introduction%20To%20Cybersecurity/Practical%20Example%20of%20Offensive%20Security(Using%20dirb%20command).md)
