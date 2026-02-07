@@ -29,9 +29,10 @@ I follow structured learning paths and treat each project as evidence of skill d
 
 ### Projects & Learning Paths
 This section contains everything I actively work on.
-New projects will be added.
+- New projects will be added.
 
-📂 TryHackMe (Hands-on Learning)
+[📂 TryHackMe (Hands-on Learning)](https://github.com/cybernuel2005/Cybersecurity-Portfolio/tree/main/TryHackMe)
+
 I am currently following structured TryHackMe learning paths to build real-world cybersecurity skills.
 
 ### Why I Document Everything
