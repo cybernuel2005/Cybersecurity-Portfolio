@@ -33,4 +33,5 @@ To apply this concept practically, I completed an attack using a dirb tool/comma
 - Penetration Tester - Test the security systems and software of a company for loopholes, flaws, and vulnerabilities
 - Red Teamer - Stimulate real-world, adversarial attacks on organization's digital systems, physical premises, and employees to identify vulnerabilities and test defensive readiness
 
-To apply this concept practically, I completed
+To apply this concept practically, I completed a simple quiz
+
