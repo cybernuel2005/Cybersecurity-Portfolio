@@ -24,7 +24,7 @@ This phase prioritizes understanding over speed.
 The Pre-Security path is divided into the following major sections.
 Each section has its own folder with structured documentation.
 
-1️⃣ Introduction to Cybersecurity
+[1️⃣ Introduction to Cybersecurity](https://github.com/cybernuel2005/Cybersecurity-Portfolio/tree/main/TryHackMe/Pre%20Security/Introduction%20To%20Cybersecurity)
 
 This section introduces the core ideas of cybersecurity and how the field is structured.
 
@@ -33,8 +33,6 @@ Key focus areas:
 - Offensive Security concepts
 - Overview of cybersecurity career paths
 - Real-world relevance of security roles
-
-Concepts are explained clearly, and practical examples are documented where applicable.
 
 2️⃣ Network Fundamentals
 
