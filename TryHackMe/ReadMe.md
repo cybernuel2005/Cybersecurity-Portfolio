@@ -25,7 +25,7 @@ Rather than chasing tools or certificates, my focus is on:
 - Applying concepts practically
 
 ### Learning Paths & Progress
-📂Pre-Security (In Progress)
+[📂Pre-Security (In Progress)](https://github.com/cybernuel2005/Cybersecurity-Portfolio/tree/main/TryHackMe/Pre%20Security)
 
 The Pre-Security path focuses on building core foundations required for any cybersecurity role.
 
