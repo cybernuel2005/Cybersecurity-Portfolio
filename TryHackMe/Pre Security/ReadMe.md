@@ -34,7 +34,7 @@ Key focus areas:
 - Overview of cybersecurity career paths
 - Real-world relevance of security roles
 
-2️⃣ Network Fundamentals
+[2️⃣ Network Fundamentals](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/main/TryHackMe/Pre%20Security/Network%20Fundamental)
 
 This section focuses on understanding how networks operate, which is essential for detecting and investigating security issues.
 
