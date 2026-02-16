@@ -50,16 +50,18 @@ To apply this concept practically, I completed a Simple MAC Address spoofing:
 
 - Blue ball wasn't allowed to access the TryHackMe site before it's MAC address is blocked
 ![First step](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/efcafbd20aed865074d59679336ace149fad0061/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-14%20205643.png)
-![Practical Example: A Simple MAC Address Spoofing](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/1ffbfbee3ff2b853656eb7ceefcbd4c22706c700/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-14%20205522.png)
+![Second Step](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/1ffbfbee3ff2b853656eb7ceefcbd4c22706c700/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-14%20205522.png)
 
-- MAC Address of Bob spoofed To Access the TryHackMe Site
+- MAC Address spoofed To Access the TryHackMe Site
+![Third Step](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/a25bdf56500cd14146385ae78b6c7ccc5f6686e4/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-14%20205830.png)
   
 ## Ping - 15-02-2026
 Ping is a command that uses ICMP(Internet Control Message Protocol) packets to determine the performance of a connection between devices over a network or the internet
 - Check if a device or website is alive on a network
 - The syntax is
   ping id address or website URL
-  
+
+To apply this concept practically, I completed a ping command process
   
 ### Go Back
 [Pre Security](https://github.com/cybernuel2005/Cybersecurity-Portfolio/tree/main/TryHackMe/Pre%20Security)
