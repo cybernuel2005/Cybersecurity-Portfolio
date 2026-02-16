@@ -45,10 +45,15 @@ Media Access Control (MAC) Address - A unique permanent ID number given to a dev
 - The first six characters represent the company that made the network device
 - The last six characters are unique for devices to devices
 - Can be faked or spoofed in the process of spoofing
+
 To apply this concept practically, I completed a Simple MAC Address spoofing:
 
+- Blue ball wasn't allowed to access the TryHackMe site before it's MAC address is blocked
+![First step](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/efcafbd20aed865074d59679336ace149fad0061/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-14%20205643.png)
 ![Practical Example: A Simple MAC Address Spoofing](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/1ffbfbee3ff2b853656eb7ceefcbd4c22706c700/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-14%20205522.png)
 
+- MAC Address of Bob spoofed To Access the TryHackMe Site
+  
 ## Ping - 15-02-2026
 Ping is a command that uses ICMP(Internet Control Message Protocol) packets to determine the performance of a connection between devices over a network or the internet
 - Check if a device or website is alive on a network
