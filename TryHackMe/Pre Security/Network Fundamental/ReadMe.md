@@ -63,7 +63,7 @@ Ping is a command that uses ICMP(Internet Control Message Protocol) packets to d
 
 To apply this concept practically, I completed a ping command process
 
-![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/fa5b56433cb3fdc69240e5b912372a373a169def/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-14%20221017.png)
+![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/382401d4794aa61c7a3524c170ffc3e42b51a529/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-14%20221042.png)
   
 ### Go Back
 [Pre Security](https://github.com/cybernuel2005/Cybersecurity-Portfolio/tree/main/TryHackMe/Pre%20Security)
