@@ -45,6 +45,9 @@ Media Access Control (MAC) Address - A unique permanent ID number given to a dev
 - The first six characters represent the company that made the network device
 - The last six characters are unique for devices to devices
 - Can be faked or spoofed in the process of spoofing
+To apply this concept practically, I completed a Simple MAC Address spoofing:
+
+[Practical Example: A Simple MAC Address Spoofing]()
 
 ## Ping - 15-02-2026
 Ping is a command that uses ICMP(Internet Control Message Protocol) packets to determine the performance of a connection between devices over a network or the internet
