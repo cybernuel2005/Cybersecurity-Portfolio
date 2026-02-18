@@ -64,6 +64,68 @@ Ping is a command that uses ICMP(Internet Control Message Protocol) packets to d
 To apply this concept practically, I completed a ping command process
 
 ![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/382401d4794aa61c7a3524c170ffc3e42b51a529/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-14%20221042.png)
+
+## Local Area Network(LAN) Topologies - 16-02-2026
+Topology is the way devices are arranged or connected to each other in a network
+
+### Star Topology
+Devices are connected individually via a central networking device, such as a switch or a hub.
+All communication or data flows through the central device
+##### Advantages
+- Fault isolation is easy
+- Scalable
+- Centralized management
+
+#### Disadvantages
+- Single point of failure
+- Higher cost
+- Maintenance complexity at scale
+
+### Bus Topology
+All devices are connected to a single main cable called the backbone cable.
+All communication or data travels along the main cable to reach each device
+
+#### Advantages
+- Cost-effective
+- Simple to install
+- Easy for small networks
+
+#### Disadvantages
+- Single point of failure
+- Performance bottlenecks
+- Difficult troubleshooting
+- Limited scalability
+
+### Ring/Token Topology
+Devices are connected to each other to form a loop.
+All communication or data travels around the ring from one device to the next till date reaches its destination
+
+#### Advantages
+- Less cabling required
+- Predictable traffic flow
+- Structured transmission
+- Reduces network or data congestion
+- Easy troubleshooting
+
+#### Disadvantages
+- Single point of failure
+- High data latency
+- Device dependency
+- Network disruption during changes
+
+### Note
+Bus topology is more cost effective, followed by ring topology, then star topology
+
+## What is a Switch?
+A networking device that connects multiple devices(host) together on a network and send data to the right device
+- Mostly done using ethernet through switch ports
+- Have different ports of 4,8,16,24,32 and 64
+- More effective than hub/repeater
+- Reduces data traffic
+- Keep track of what decive is connected to which port
+
+### What is a Router
+
   
 ### Go Back
 [Pre Security](https://github.com/cybernuel2005/Cybersecurity-Portfolio/tree/main/TryHackMe/Pre%20Security)
