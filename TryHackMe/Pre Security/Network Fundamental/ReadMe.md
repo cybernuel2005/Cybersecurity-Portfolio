@@ -115,6 +115,7 @@ All communication or data travels around the ring from one device to the next ti
 
 To apply this concept practically, I identified ways in which LAN topologies are vulnerable to breaking
 
+![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/4c6a2c0a4eab89e8df156e2f8ea8bf145b8dc597/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-17%20031932.png)
 ![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/74e16c5961ff111209c6e5dcc9fbe8398775c1b7/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-17%20032613.png)
 
 ### Note
