@@ -113,7 +113,7 @@ All communication or data travels around the ring from one device to the next ti
 - Device dependency
 - Network disruption during changes
 
-To apply this concept practically, I completed a
+To apply this concept practically, I completed ways in which LAN topologies are vulnerable to breaking
 
 ### Note
 Bus topology is more cost-effective, followed by ring topology, and then star topology
@@ -132,8 +132,6 @@ A device that connects different networks together and passes data between them.
 - Routing is the process of directing data between different networks using IP addresses to determine the best path
 - Routing is useful when devices are connected by many paths
 
-
-  
 ### Go Back
 [Pre Security](https://github.com/cybernuel2005/Cybersecurity-Portfolio/tree/main/TryHackMe/Pre%20Security)
 
