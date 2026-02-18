@@ -113,7 +113,9 @@ All communication or data travels around the ring from one device to the next ti
 - Device dependency
 - Network disruption during changes
 
-To apply this concept practically, I completed ways in which LAN topologies are vulnerable to breaking
+To apply this concept practically, I identified ways in which LAN topologies are vulnerable to breaking
+
+![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/74e16c5961ff111209c6e5dcc9fbe8398775c1b7/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-17%20032613.png)
 
 ### Note
 Bus topology is more cost-effective, followed by ring topology, and then star topology
