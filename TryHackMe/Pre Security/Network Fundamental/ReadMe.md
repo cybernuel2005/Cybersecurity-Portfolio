@@ -41,14 +41,14 @@ Media Access Control (MAC) Address - A unique permanent ID number given to a dev
 - Made up of 12 characters
 - Letters and numbers from 0 - 9 and A - F respectively
 - The characters are written in pairs
-- Each pair is separated by a colon, considered as seperators
+- Each pair is separated by a colon, considered as a separator
 - The first six characters represent the company that made the network device
 - The last six characters are unique for devices to devices
 - Can be faked or spoofed in the process of spoofing
 
 To apply this concept practically, I completed a Simple MAC Address spoofing:
 
-- Blue ball wasn't allowed to access the TryHackMe site before it's MAC address is blocked
+- Blue ball wasn't allowed to access the TryHackMe site before its MAC address was blocked
 ![First step](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/efcafbd20aed865074d59679336ace149fad0061/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-14%20205643.png)
 ![Second Step](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/1ffbfbee3ff2b853656eb7ceefcbd4c22706c700/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-14%20205522.png)
 
@@ -113,18 +113,25 @@ All communication or data travels around the ring from one device to the next ti
 - Device dependency
 - Network disruption during changes
 
+To apply this concept practically, I completed a
+
 ### Note
-Bus topology is more cost effective, followed by ring topology, then star topology
+Bus topology is more cost-effective, followed by ring topology, and then star topology
 
 ## What is a Switch?
-A networking device that connects multiple devices(host) together on a network and send data to the right device
-- Mostly done using ethernet through switch ports
+A networking device that connects multiple devices(hosts) together on a network and sends data to the right device
+- Mostly done using Ethernet through switch ports
 - Have different ports of 4,8,16,24,32 and 64
-- More effective than hub/repeater
+- More effective than a hub/repeater
 - Reduces data traffic
-- Keep track of what decive is connected to which port
+- Keep track of what device is connected to which port
 
-### What is a Router
+### What is a Router?
+A device that connects different networks together and passes data between them.
+- It does it by using routing
+- Routing is the process of directing data between different networks using IP addresses to determine the best path
+- Routing is useful when devices are connected by many paths
+
 
   
 ### Go Back
