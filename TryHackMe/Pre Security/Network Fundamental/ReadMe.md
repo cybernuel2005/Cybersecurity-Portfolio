@@ -135,6 +135,46 @@ A device that connects different networks together and passes data between them.
 - Routing is the process of directing data between different networks using IP addresses to determine the best path
 - Routing is useful when devices are connected by many paths
 
+## A Primer of Subnetting - 17-02-2026
+Subnetting is dividing one big network into smaller, organized networks
+
+A subnet mask  is a 32-bit number used to determine the network and host portion of an IPv4 address for routing and network segmentation
+
+Subnets use IP Addresses in three different ways
+- Network Address - Used to identify a network existence
+- Host Address - Used to identify a device on a subnet
+- Default Gateway - A special address assigned to a device on the network capable of sending information to another network
+
+## ARP & DHCP - 18-02-2026
+### ARP (Address Resolution Protocol)
+It is a protocol on local networks used to map a device's IP address to its MAC address so data can be delivered to the right device
+
+How it works
+- Checks ARP table/cache - To check if the IP address already has a known MAC address
+- ARP broadcast Request - Sends to every device on the local network, "Who has this IP address? Tell me your MAC?"
+- ARP Reply - Device responds to the broadcast with its MAC address
+- Update ARP table/cache - The computer stores this mapping in its ARP table for a short time
+- Data Delivery - With the MAC address known, the computer sends the frame to the correct device on the LAN.
+
+ARP cache/table is a temporary storage on a device that keeps a list of known IP addresses and their corresponding MAC addresses
+
+### DHCP (Dynamic Host Configuration Protocol)
+It is a protocol that automatically assigns IP addresses and other communication parameters to devices when they join a network using a client-server architecture
+
+How it works
+- DHCP Discover - A broadcast message sent by the device to DHCP servers asking for an IP address
+   - Sent to all devices on the local network because the device doesn’t know where the DHCP server is.
+   - Starts the process.
+- DHCP Offer - The DHCP server replies to the device.
+  - The offer is temporary until the device accepts it.
+  - Multiple DHCP servers could technically offer addresses; the device picks one.
+- DHCP Request - The device responds to the server
+  - Confirms to one DHCP server that it accepts the IP.
+  - Prevents conflicts if multiple servers make offers.
+- DHCP Ack(Acknowledgement) - The DHCP server replies back to finalize the process
+  - This finalizes the lease.
+  - The device can now communicate on the network with this IP.
+
 ### Go Back
 [Pre Security](https://github.com/cybernuel2005/Cybersecurity-Portfolio/tree/main/TryHackMe/Pre%20Security)
 
