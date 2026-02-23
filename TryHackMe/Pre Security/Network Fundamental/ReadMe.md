@@ -175,6 +175,72 @@ How it works
   - This finalizes the lease.
   - The device can now communicate on the network with this IP.
 
+## Open systems Interconnection(OSI) Model - 19-02-2026
+A model that provides a framework of how all networked devices send, recieve and interpret data. It is arranged from Layer 7 to 1.
+Note: Encapsulation - A term for when pieces of information are added to data in the OSI model
+
+### Physical Layer(1st)
+Responsible for physically transmitting raw bits{Data unit (0s and 1s-binary numbering system)}  using electrical, optical, or radio(wireless) signals between devices through networking hardware.
+##### Layer 1 Devices
+- Cables (Transmission media)
+- Hub
+- Repeater
+- Antennas (wireless)
+- Network Interface Card(NIC)
+
+### Data Link Layer(2nd)
+Packages bits into frames(Data unit), uses MAC addresses to send data to the correct device on the local network, and handles error detection and flow controls 
+#### Layer 2 Devices
+- Switch
+-  Bridge
+-  NIC
+
+### Network Layer(3rd)
+Responsible for using IP addresses to route packets(Data unit) between networks and chooses the best path for them to reach their destination.
+
+Routing is choosing the best path for packets to travel from one network to another.
+
+Some common routing protocols are
+- OSPF( Open Shortest Path First)
+- RIP ( Routing Information Protocol)
+
+Factors that determine the Best path
+- What path is the shortest? - Least amount of devices that the packets need to travel
+- What path is mostly reliable? - Have packets been lost on that path before
+- Which path has the faster physical connection? - Is the path using copper connection (slower) or fiber connection(faster)
+
+Router - Layer 3 device
+
+### Transport Layer(4th)
+Plays a vital part in transmitting segments(Data unit) across a network, getting data to the correct app.
+Uses TCP and UDP protocol
+
+#### Transmission Control Protocol(TCP)
+Provides reliable data transfer, flow control and congestion control. Higher level protocols such as HTTP, POP3,IMAP nad SMTP uses TCP
+
+###### Adwantages
+- Data accuracy
+- Reliable
+- Requires three way handshake to establish connection
+- Make sure the sender does not send data faster or larger that the receiver can't handle
+- Reserves a contant connection between two devices for the amount of timw it takes the data transmission
+- Incorperate error checking into it's design
+
+###### Disadvantages
+- Requires all data segments to arrive correctly, if not data can't be used
+- Reserves system resources for the duration of a connection, so a slow connection may reduce overall performance or bottlenecks
+- Significantly slower because more work has to be done by the decive using this protocol
+
+Use in file sharing, internet browsing, sending emails.
+
+#### User Datagram Protocol(UDP)
+It's a connectionless, fast queries, prioritise real time communications, such as audio and video conferencing and broadcast
+
+###### Adantages
+- Much faster than TCP
+- Does not control the transmittion speed, it let's the application decides
+- Does not reserve a continous connection on a device, reducing resource usage and iprovind effeceintly
+
 ### Go Back
 [Pre Security](https://github.com/cybernuel2005/Cybersecurity-Portfolio/tree/main/TryHackMe/Pre%20Security)
 
