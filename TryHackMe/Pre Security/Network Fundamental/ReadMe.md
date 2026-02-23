@@ -189,14 +189,14 @@ Responsible for physically transmitting raw bits{Data unit (0s and 1s-binary num
 - Network Interface Card(NIC)
 
 ### Data Link Layer(2nd)
-Packages bits into frames(Data unit), uses MAC addresses to send data to the correct device on the local network, and handles error detection and flow controls 
+Packages bits into frames(Data unit), uses *MAC addresses* to send data to the correct device on the local network, and handles error detection and flow controls 
 #### Layer 2 Devices
 - Switch
 -  Bridge
 -  NIC
 
 ### Network Layer(3rd)
-Responsible for using IP addresses to route packets(Data unit) between networks and chooses the best path for them to reach their destination.
+Responsible for using *IP addresses* to route packets(Data unit) between networks and chooses the best path for them to reach their destination.
 
 Routing is choosing the best path for packets to travel from one network to another.
 
@@ -205,41 +205,68 @@ Some common routing protocols are
 - RIP ( Routing Information Protocol)
 
 Factors that determine the Best path
-- What path is the shortest? - Least amount of devices that the packets need to travel
+- What path is the shortest? - The least number of devices that the packets need to travel across
 - What path is mostly reliable? - Have packets been lost on that path before
-- Which path has the faster physical connection? - Is the path using copper connection (slower) or fiber connection(faster)
+- Which path has the faster physical connection? - Is the path using a copper connection (slower) or a fiber connection(faster)
 
 Router - Layer 3 device
 
 ### Transport Layer(4th)
-Plays a vital part in transmitting segments(Data unit) across a network, getting data to the correct app.
-Uses TCP and UDP protocol
+Plays a vital part in transmitting segments/datagrams(Data unit) across a network using *port numbers*, getting data to the correct app.
+Uses TCP and UDP protocols
 
 #### Transmission Control Protocol(TCP)
-Provides reliable data transfer, flow control and congestion control. Higher level protocols such as HTTP, POP3,IMAP nad SMTP uses TCP
+Provides reliable data transfer(segment), flow control, and congestion control. Higher-level protocols such as HTTP, POP3, IMAP, and SMTP use TCP
 
-###### Adwantages
+###### Advantages
 - Data accuracy
 - Reliable
-- Requires three way handshake to establish connection
-- Make sure the sender does not send data faster or larger that the receiver can't handle
-- Reserves a contant connection between two devices for the amount of timw it takes the data transmission
-- Incorperate error checking into it's design
+- Requires three way handshake to establish a connection
+- Make sure the sender does not send data faster or larger than the receiver can handle
+- Reserves a constant connection between two devices for the amount of time it takes for the data transmission
+- Incorporate error checking into its design
 
 ###### Disadvantages
-- Requires all data segments to arrive correctly, if not data can't be used
-- Reserves system resources for the duration of a connection, so a slow connection may reduce overall performance or bottlenecks
-- Significantly slower because more work has to be done by the decive using this protocol
+- Requires all data segments to arrive correctly; if not data can't be used
+- Reserves system resources for the duration of a connection, so a slow connection may reduce overall performance or cause bottlenecks
+- Significantly slower because more work has to be done by the device using this protocol
 
-Use in file sharing, internet browsing, sending emails.
+Use in file sharing, internet browsing, sending emails, etc.
 
 #### User Datagram Protocol(UDP)
-It's a connectionless, fast queries, prioritise real time communications, such as audio and video conferencing and broadcast
+It's a connectionless, fast query(datagram), prioritise real time communications, such as audio and video conferencing, and broadcasts
 
-###### Adantages
+###### Advantages
 - Much faster than TCP
-- Does not control the transmittion speed, it let's the application decides
-- Does not reserve a continous connection on a device, reducing resource usage and iprovind effeceintly
+- Does not control the transmission speed; it lets the application decide
+- Does not reserve a continuous connection on a device, reducing resource usage and improving efficiency
+
+###### Disadvantages
+- Doesn't care if the data is received or not
+- UPD's flexibility requires developers to implement their own reliability and control mechanisms, increasing complexity
+- Unstable connections result in a terrible experience for the user
+
+### Session Layer(5th)
+Manages and controls communication sessions between applications using *session id/token*.
+A session is an ongoing exchange between two applications.
+
+Responsible for:
+- Session creation
+- Session maintainance
+- Session termination
+- Session isolation
+- Session recovery
+
+### Presentation Layer(6th)
+Responsible for standardizing data, that's translating, formatting, encrypting and compressing  so the receiving application understand it securely and efficiently. It handle three main things
+- Translation(format converwion)
+- Encryption/Decryption
+- Compression
+
+### Application Layer(7th)
+Provides the interface and *prototcols* that allows software application to communicate with the user.
+
+To apply this concept practically, I completed an OSI model game
 
 ### Go Back
 [Pre Security](https://github.com/cybernuel2005/Cybersecurity-Portfolio/tree/main/TryHackMe/Pre%20Security)
