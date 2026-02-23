@@ -267,6 +267,7 @@ Responsible for standardizing data, that's translating, formatting, encrypting a
 Provides the interface and *prototcols* that allows software application to communicate with the user.
 
 To apply this concept practically, I completed an OSI model game
+![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/d640b4ee8fbf47db5c761496dd80a578adda48e7/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-21%20152650.png)
 
 ### Go Back
 [Pre Security](https://github.com/cybernuel2005/Cybersecurity-Portfolio/tree/main/TryHackMe/Pre%20Security)
