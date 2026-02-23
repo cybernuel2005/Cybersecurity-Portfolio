@@ -252,22 +252,23 @@ A session is an ongoing exchange between two applications.
 
 Responsible for:
 - Session creation
-- Session maintainance
+- Session maintenance
 - Session termination
 - Session isolation
 - Session recovery
 
 ### Presentation Layer(6th)
-Responsible for standardizing data, that's translating, formatting, encrypting and compressing  so the receiving application understand it securely and efficiently. It handle three main things
+Responsible for standardizing data, that's translating, formatting, encrypting, and compressing  so the receiving application understands it securely and efficiently. It handles three main things
 - Translation(format converwion)
 - Encryption/Decryption
 - Compression
 
 ### Application Layer(7th)
-Provides the interface and *prototcols* that allows software application to communicate with the user.
+Provides the interface and *protocols* that allow software applications to communicate with the user.
 
 To apply this concept practically, I completed an OSI model game
 ![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/d640b4ee8fbf47db5c761496dd80a578adda48e7/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-21%20152650.png)
+![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/d87424f22c3980422627ef817e91680479f2cafa/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-21%20153047.png)
 
 ### Go Back
 [Pre Security](https://github.com/cybernuel2005/Cybersecurity-Portfolio/tree/main/TryHackMe/Pre%20Security)
