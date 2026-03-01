@@ -270,6 +270,63 @@ To apply this concept practically, I completed an OSI model game
 ![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/d640b4ee8fbf47db5c761496dd80a578adda48e7/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-21%20152650.png)
 ![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/d87424f22c3980422627ef817e91680479f2cafa/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-21%20153047.png)
 
+## Packets & Frames - 23-02-2026
+Packets and Frames are small pieces of data that, when combined, form a larger piece of information or message. However, they are two different things in the OSI model 
+
+A packet is a piece of data from layer 3(network layer) of the OSI model, containing information such as IP header and payload.
+
+IP header is the metadata, not the actual message that contains the instruction of how the data should travel.
+##### What's Inside an IP header
+- Source IP Address - Who sent the data
+- Destination IP Address - Where data is going
+- TTL(Time To Live) - Prevent infinite routing loops
+- Protocol - What protocol is the packet using
+- Total Length - Size of the entire packet
+- Header Length - Size of the IP header
+- Fragmentation Info - If packets were split
+- Checksum - Detect header corruption
+
+Payload is the real content or message being carried
+
+A frame is used in the layer 2(Data Link) of the OSI model, which encapsulates the packet and adds additional information such as MAC address
+
+Note this - Data travels in frames on the local network, and travels in packets across networks
+
+### TCP/IP (Three-way handshake)
+TCP/IP protocol consists of 4 layers and is the summarized version of the OSI model.
+These layers are
+- Application
+- Transport
+- Internet
+- Network Interface
+
+TCP packets contain various sections of information known as the header and work in the transport layer. The header contains;
+- Source port - Port opened by the sender to send a TCP packet from. Chosen randomly from 0 - 65535 ports that aren't already in use at that time
+- Destination Port - The port number that an application or service is running on the remote host to receive the data. Not chosen randomly
+- Source IP - IP Address of the device that is sending the packet
+- Destination IP - IP Address of the device that is receiving the packet
+- Sequence Number - Random number that is given to the first data transmitted when a connection occurs
+- Acknowledge Number - Indicates the next byte of data the receiver expects, confirming receipt of all previous bytes has been sucessful
+- Checksum - A value used to verify that the TCP header and data were not corrupted during transmission
+- Data - where the message to transmit is stored
+- Flag - Determine how the packet should be handled by either device during the handshake process
+
+### Three-Way Handshake
+It's the term given for the process used to establish a connection between two devices. It communicates using a few special messages(STEP-MESSAGE-DESCRIPTION)
+- STEP1 - SYN(Synchronize) - It's the initial packet sent by a client. It's used to initiate a connection
+- STEP2 - SYN/ACK - Packet is sent by the server to acknowledge the synchronization attempt from the client
+- STEP3 - ACK(Acknowledge) - Either by a client or server, an acknowledge packet is sent  to show the connection has been successfully established
+- STEP4 - DATA - Once the connection has been established, data(such as byte of file)  is sent via a "DATA" message
+- STEP5 - FIN(Finish) - This packet is used to close the connection after data transfer is completed
+- RST(Reset) - This packet happens when there is a problem during the handshake proccess which ends communication to reset it
+
+TCP Closing a connection - Once a device has determined that the other device has successfully received all the data
+
+To apply this concept practically, I completed a TCP handshake
+
+
+  
+-  
 ### Go Back
 [Pre Security](https://github.com/cybernuel2005/Cybersecurity-Portfolio/tree/main/TryHackMe/Pre%20Security)
 
