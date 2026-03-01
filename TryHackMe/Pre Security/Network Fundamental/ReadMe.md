@@ -421,10 +421,9 @@ It provides
 - Network organization
 - Access control - Can apply firewall rules between VLANs
 
-- To apply this concept practically, I completed an experiment with the network simulator.
+To apply this concept practically, I completed an experiment with the network simulator.
 ![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/46f758c64b7e5e281e094d484250c9a4efe26626/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-28%20204544.png)
 ![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/46f758c64b7e5e281e094d484250c9a4efe26626/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-28%20204733.png)
-
 
 ### Go Back
 [Pre Security](https://github.com/cybernuel2005/Cybersecurity-Portfolio/tree/main/TryHackMe/Pre%20Security)
