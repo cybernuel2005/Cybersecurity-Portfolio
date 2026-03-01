@@ -44,7 +44,7 @@ Key focus areas:
 - Network traffic basics
 - Why networking knowledge is critical for security analysis
 
-3️⃣ How the Web Works
+[3️⃣ How the Web Works](https://github.com/cybernuel2005/Cybersecurity-Portfolio/tree/8146c5a24fad282f32d2227505669fc579482600/TryHackMe/Pre%20Security/How%20The%20Web%20Works)
 
 This section explains how the internet and web applications function at a fundamental level.
 
