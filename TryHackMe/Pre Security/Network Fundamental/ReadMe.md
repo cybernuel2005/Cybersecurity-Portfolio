@@ -293,6 +293,8 @@ A frame is used in the layer 2(Data Link) of the OSI model, which encapsulates t
 Note this - Data travels in frames on the local network, and travels in packets across networks
 
 ### TCP/IP (Three-way handshake)
+It's a connection - based protocol that requires a connection
+
 TCP/IP protocol consists of 4 layers and is the summarized version of the OSI model.
 These layers are
 - Application
@@ -311,7 +313,7 @@ TCP packets contain various sections of information known as the header and work
 - Data - where the message to transmit is stored
 - Flag - Determine how the packet should be handled by either device during the handshake process
 
-### Three-Way Handshake
+#### Three-Way Handshake
 It's the term given for the process used to establish a connection between two devices. It communicates using a few special messages(STEP-MESSAGE-DESCRIPTION)
 - STEP1 - SYN(Synchronize) - It's the initial packet sent by a client. It's used to initiate a connection
 - STEP2 - SYN/ACK - Packet is sent by the server to acknowledge the synchronization attempt from the client
@@ -325,8 +327,35 @@ TCP Closing a connection - Once a device has determined that the other device ha
 To apply this concept practically, I completed a TCP handshake
 ![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/abb8e13c5b2621e2a019a2c32ecde13aad54f931/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-25%20010452.png)
 ![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/6973541f6e8dc6c5f86e670369bb49d5e7d09aaa/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-25%20010605.png)
-  
--  
+
+### UDP/IP
+It's a stateless protocol that doesn't require a connection
+
+UDP packets have fewer header details.
+- Time To Live(TTL) - Set an expiry timer for the packet
+- Source Address
+- Destination Address
+- Source Port
+- Destination Port
+- Data
+
+### Ports 101 - 25-02-2026
+Ports are an essential point at which data can be exchanged. Networking devices also use ports to enforce strict rules when communicating with one another. 
+
+In networking, ports are numerical values between 0 and 65535. Every port between 0 and 1024 is known as *a common port*.
+Some ports, port number, and description;
+- File transfer protocol(FTP) - 21 - Used by a file sharing application built on a client-server model
+- Secure Shell(SSH) - 22 - Used to secure login to systems via a text - based interface for management
+- HyperText Transfer Protocol(HTTP) - 80 - Powers the www, used to access web pagesusing browsers
+- HyperText Transfer Protocol Secure(HTTPs) - 443 - Secure version of HTTP using encryption
+- Server Message Block(SMB) - 445 - Similar to FTP, but allows you to share devices like printers
+- Remote Desktop Protocol(RDP) - 3389 - Secure means of logging into a system using a visual desktop interface
+
+To apply this concept practically, I completed a simple port connection
+
+
+
+
 ### Go Back
 [Pre Security](https://github.com/cybernuel2005/Cybersecurity-Portfolio/tree/main/TryHackMe/Pre%20Security)
 
