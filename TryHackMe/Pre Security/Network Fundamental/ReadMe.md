@@ -352,7 +352,29 @@ Some ports, port number, and description;
 - Remote Desktop Protocol(RDP) - 3389 - Secure means of logging into a system using a visual desktop interface
 
 To apply this concept practically, I completed a simple port connection
+![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/7b6f8ae6e094c81ea533accc4e4d91267c506a4f/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-26%20005733.png)
 
+### Port Forwarding - 26-02-2026
+It maps an external port on a router to an internal device's port, allowing outside access to internal services.
+It is configured at the *router* of a network
+
+### Firewall 101
+A security tool, hardware, or software that is used to filter network traffic by stopping unauthorized incoming and outgoing traffic
+
+Factors a firewall can be configured to follow;
+- where the traffic is coming from
+- where the traffic is going to
+- What port is the traffic for
+- What protocol is the traffic using
+Firewalls perform these packet inspection
+
+Firewalls can be categorised into 2 to 5 categories.
+The 2 categories are;
+- Stateful - A stateful firewall tracks active connections and makes decisions based on the entire connection.
+- Stateless - A stateless firewall checks each packet individually using fixed rules and does not remember past traffic.
+Firewall operates at the Network layer(layer 3) and transport layer(layer 4) of the OSI model
+
+To apply this concept practically, I completed a 
 
 
 
