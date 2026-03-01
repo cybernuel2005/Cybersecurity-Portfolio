@@ -372,9 +372,56 @@ Firewalls can be categorised into 2 to 5 categories.
 The 2 categories are;
 - Stateful - A stateful firewall tracks active connections and makes decisions based on the entire connection.
 - Stateless - A stateless firewall checks each packet individually using fixed rules and does not remember past traffic.
+
 Firewall operates at the Network layer(layer 3) and transport layer(layer 4) of the OSI model
 
-To apply this concept practically, I completed a 
+To apply this concept practically, I completed a simple firewall filtering
+![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/ca5da6096097a342287ebf1434a30bf94e2b4097/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-27%20005347.png)
+![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/ca5da6096097a342287ebf1434a30bf94e2b4097/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-27%20005407.png)
+![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/ca5da6096097a342287ebf1434a30bf94e2b4097/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-27%20005223.png)
+
+### VPN Basics - 27-02-2026
+A Virtual Private Network(VPN) is a technology that allows devices on separate networks to communicate securely by creating a dedicated path between each other over the Internet (known as a tunnel). Devices connected within this tunnel form their own private network.
+
+Benefits
+- Allows networks in different geographical locations to be connected.
+- Offers privacy - Encrypts traffic, hides your IP and prevents your ISP from seeing browsing details
+- Offers Anonymity - The level of anonymity a VPN provides is only as much as how other devices on the network respect privacy. For example, a VPN that logs all of your data/history is essentially the same as not using a VPN in this regard.
+
+#### VPN Technology
+- Point-to-Point Protocol(PPP) - A layer 2 protocol that manages authentication, IP assignment and data encapsulation between a client and VPN server before encryption is applied
+- Point-to-Point Tunneling Protocol(PPTP) - A VPN protocol that allows PPP data to travel across the internet by creating a tunnel between a client and a server. PPTP is very easy to set up and is supported by most devices. It is, however, weakly encrypted in comparison to alternatives.
+- Internet Protocol Security(IPSec) - encrypts data(IP traffic) operating at the network layer using the existing Internet Protocol (IP) framework. IPSec is difficult to set up in comparison to alternatives; however, if successful, it boasts strong encryption and is also supported on many devices.
+
+### LAN Networking Devices
+##### What's a Router
+- Its job is to connect networks and pass data between them.
+- It does this by using routing (hence the name router!).
+- Routing is the process of data traveling across networks. Routing involves creating a path between networks so that this data can be successfully delivered.
+- Operate at Layer 3 of the OSI model.
+- They often feature an interactive interface (such as a website or a console) that allows an administrator to configure various rules, such as port forwarding or firewalling.
+
+Factors for Routing
+- What path is the shortest?
+- What path is the most reliable?
+- Which path has the faster medium (e.g., copper or fibre)?
+
+##### What's a Switch
+- It is a dedicated networking device responsible for providing a means of connecting to multiple devices. 
+- It can facilitate many devices (from 3 to 63) using Ethernet cables.
+- It can operate at both layer 2 and layer 3 of the OSI model.
+- But layer 2 switches can't operate at layer 3.
+- Layer 3 switches can perform some of the responsibilities of a router
+
+VLAN(Virtual Local Area Network) - Split a single switch into multiple virtual networks, so devices behave as if they are in separate networks
+
+It provides
+- Security - Because devices on separate networks can't communicate, even though they are all on one switch
+- Reduce broadcast traffic - Broadcasts stay inside their VLAN
+- Network organization
+- Access control - Can apply firewall rules between VLANs
+
+- To apply this concept practically, I completed an experiment with the network simulator.
 
 
 
