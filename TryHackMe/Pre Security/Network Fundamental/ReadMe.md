@@ -323,7 +323,7 @@ It's the term given for the process used to establish a connection between two d
 TCP Closing a connection - Once a device has determined that the other device has successfully received all the data
 
 To apply this concept practically, I completed a TCP handshake
-
+![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/abb8e13c5b2621e2a019a2c32ecde13aad54f931/TryHackMe/Pre%20Security/Network%20Fundamental/Images/Screenshot%202026-02-25%20010452.png)
 
   
 -  
