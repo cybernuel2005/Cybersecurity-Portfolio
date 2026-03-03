@@ -34,9 +34,19 @@ A subdomain sits on the left-hand side of the Second-Level Domain using a period
 DNS records are instructions stored in a domain’s DNS zone that tell the internet how to handle traffic for that domain.
 
 #### A Record
-These records resolve to IPv4 addresses, for example 104.26.10.229
+These records resolve to IPv4 addresses
 
 #### AAAA Record
-These records resolve to IPv6 addresses, for example 2606:4700:20::681a:be5
+These records resolve to IPv6 addresses
 
-#### 
+#### CNAME (Canonical Name)
+These records resolve to another domain name
+
+#### MX Record (Mail Exchange)
+These records resolve to the address of the servers that handle the email for the domain you are querying
+
+#### TXT Record
+TXT records are free text fields where any text-based data can be stored. 
+- Can be to list servers that have the authority to send an email on behalf of the domain (this can help in the battle against spam and spoofed email)
+- Can also be used to verify ownership of the domain name when signing up for third-party services.
+
