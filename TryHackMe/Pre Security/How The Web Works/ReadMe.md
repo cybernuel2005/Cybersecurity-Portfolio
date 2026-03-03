@@ -62,3 +62,5 @@ NOTE: DNS records all come with a TTL (Time To Live) value. This value is a numb
 
 ### Practicals
 ![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/80a6a86052754c312fb41423be282e5c56056c86/TryHackMe/Pre%20Security/How%20The%20Web%20Works/Image/Screenshot%202026-03-03%20084539.png)
+
+![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/09b91002e4b735d00a80905a105d2473d9c7e10c/TryHackMe/Pre%20Security/How%20The%20Web%20Works/Image/Screenshot%202026-03-03%20085743.png)
