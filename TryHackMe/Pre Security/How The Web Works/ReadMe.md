@@ -60,3 +60,5 @@ What happens when you make a DNS Request
  
 NOTE: DNS records all come with a TTL (Time To Live) value. This value is a number represented in seconds that the response should be saved for locally until you have to look it up again. Caching saves on having to make a DNS request every time you communicate with a server.
 
+### Practicals
+![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/80a6a86052754c312fb41423be282e5c56056c86/TryHackMe/Pre%20Security/How%20The%20Web%20Works/Image/Screenshot%202026-03-03%20084539.png)
