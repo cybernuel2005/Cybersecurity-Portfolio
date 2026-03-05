@@ -64,3 +64,18 @@ NOTE: DNS records all come with a TTL (Time To Live) value. This value is a numb
 ![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/80a6a86052754c312fb41423be282e5c56056c86/TryHackMe/Pre%20Security/How%20The%20Web%20Works/Image/Screenshot%202026-03-03%20084539.png)
 ![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/a9906eceaca3988ed9f724febbaf03acb260100a/TryHackMe/Pre%20Security/How%20The%20Web%20Works/Image/Screenshot%202026-03-03%20085704.png)
 ![](https://github.com/cybernuel2005/Cybersecurity-Portfolio/blob/09b91002e4b735d00a80905a105d2473d9c7e10c/TryHackMe/Pre%20Security/How%20The%20Web%20Works/Image/Screenshot%202026-03-03%20085743.png)
+
+## HTTP In Detail - 05-03-2026
+#### What is HTTP? (HyperText Transfer Protocol)
+HTTP is the set of rules used for communicating with web servers for the transmitting of webpage data, whether that is HTML, Images, Videos, etc.
+
+Developed by Tim Berners-Lee and his team between 1989-1991. 
+
+#### What is HTTPs? (HyperText Transfer Protocol Secure)
+HTTPS is the secure version of HTTP. HTTPS data is encrypted so it not only stops people from seeing the data you are receiving and sending, but it also gives you assurances that you're talking to the correct web server and not something impersonating it.
+
+### Requests and Responses
+#### What is a URL? (Uniform Resource Locator)
+A URL is an instruction on how to access a resource on the internet.
+
+
